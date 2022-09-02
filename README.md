@@ -70,16 +70,14 @@ Individual bike usage (as measured by total hours in service and total number of
 
 ### Summary
 <img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  The client base is primarily male subscribers most likely making commuter trips during the week (8a and 5pm) with a typical commute time of 5-6 mins.  The non-subscriber customer base is most active in a more spreadout pattern across midday.
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  The area of highest activity is in lower Manhattan and around Central Park, with fewer trips in Brooklyn and Queens
+
 <img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  Individual bikes requiring maintenance can be identified either by their total hours in service or number of trips made.  
 
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  Given that the most frequent ride duration is 5min and the majority are completed in under an hour, we can use the heatmaps to estimate that about 45,000 bikes are needed to accomodate peak ridership.
 
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  There are some datapoints which may be skewing certain analyses.  Birth year has many points outside the expected age range of a user.  There is also a concentration of datapoints at age 50 and unknown gender.  These are likely due to false or omitted demographic inputs by the user.
 
-
-
-
-
- 
- 
-- what are the highest-traffic starting locations?
-- what are the highest-traffic ending locations?
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  View the story on Tableau to see additional visualizations showing geographic utilization and checkout durations by age (and more!)
 

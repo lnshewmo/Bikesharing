@@ -1,4 +1,4 @@
-<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/citibike_image.png" height="100" width="300" >
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/citibike_image.png" height="100" width="200" >
 
 # NYC Citibikes
 ## Using Tableau to Create Visualizations
@@ -11,26 +11,58 @@ View the NYC Citibikes Story on Tableau Public **[here.](https://public.tableau.
  - Jupyter Notebook 6.4.8
  - Pandas library - trip duration data from the 201908-citibike-tripdata.csv file was converted to a *datetime* datatype **([here](https://github.com/lnshewmo/Bikesharing/blob/main/NYC_Citibike_Challenge.ipynb))** before uploading to Tableau.
   
-### Overview
+## Overview
 
 Visualizations using the NYC CitiBikes dataset were prepared for an investor meeting to demonstrate proof of concept for a similar bikesharing venture in Des Moines, Iowa.  The selected dataset represents the month of August (2019) which was determined to be an optimal month for bike rentals.
 
-### Results
+## Results
 
-Total ridership for August:  2,344,224 rides
-Breakdown of subscribers vs. short-term customers:  
+Total ridership for August:  2,344,224 total rides
 
+----
 
+Breakdown of subscribers vs. short-term customers:  The primary client type is male subscribers age 25-35
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/user_gender.png" height="300" width="300">
 
-- what are the daily peak times for trips? (total # bikes needed, when can maintenance be performed)
-- what are the highest-traffic starting locations?
-- what are the highest-traffic ending locations?
-- are the trends in customer demographics?
-- how long is an average trip? (duration by age, gender, etc)
-- which bikes need repair? (sum of number of rides and sum of trip durations)
-- how long are bikes checked out for all riders and genders
-- how many trips are taken by the hour for each day of the week for all riders and genders
-- what days of the week is a user more likely to rent a bike (usertype, gender)
+----
+
+Daily peak times for trips:  Usage patterns differ between weekdays and weekends. 
+
+Weekdays: Peak times spike at 8a and 5p, typical commuter time periods
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/peak_weekday_use.png" height="300" width="500">
+
+Weekends: There is a more gradual mid-day build between 10a-7p with a steady peak from 12-5p
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/peak_weekend_use.png" height="300" width="500">
+
+-----
+
+Trip duration for all riders and genders: The majority of trips are less than an hour in duration with a significant spike at 5-6min duration.
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/users_checkout_time.png" height="300" width="600">
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/checkout_time_by_gender.png" height="300" width="550">
+
+-----
+
+Number of trips taken by the hour for each day of the week for all riders:
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/hourly_weekly.png" height="300" width="400">
+
+With breakout for gender:
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/hourly_weekly_gender.png" height="300" width="700">
+
+----
+
+Days of the week is a user more likely to rent a bike:
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/weekly_gender_user.png" height="300" width="350">
+
+----
+
+Which bikes need repair?
 
 ### Summary
 <img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">
@@ -39,5 +71,12 @@ Breakdown of subscribers vs. short-term customers:
 
 
 
- 
 
+<img src="" height="300" width="300">
+
+ 
+ (total # bikes needed, when can maintenance be performed)
+- what are the highest-traffic starting locations?
+- what are the highest-traffic ending locations?
+- how long is an average trip? (duration by age, gender, etc)
+-  (sum of number of rides and sum of trip durations)

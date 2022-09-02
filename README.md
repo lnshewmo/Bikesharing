@@ -1,9 +1,9 @@
-<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/citibike_image.png" height="100" width="200" >
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/citibike_image.png" height="200" width="400" >
 
 # NYC Citibikes
 ## Using Tableau to Create Visualizations
 
-View the NYC Citibikes Story on Tableau Public **[here.](https://public.tableau.com/views/CitiBike_Challenge_16616353157500/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)**
+View the entire NYC Citibikes Story on Tableau Public **[here](https://public.tableau.com/views/CitiBike_Challenge_16616353157500/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)** for a more expanded explanation of the findings.
 
 ### Resources
  - **Data:** from the CitiBike System Data [page](https://s3.amazonaws.com/tripdata/index.html), the selected set is 201908-citibike-tripdata.csv.zip
@@ -50,6 +50,8 @@ Number of trips taken by the hour for each day of the week for all riders:
 
 <img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/hourly_weekly.png" height="300" width="400">
 
+This heatmap can be used to approximate the number of bikes needed to cover peak usages.
+
 With breakout for gender:
 
 <img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/hourly_weekly_gender.png" height="300" width="700">
@@ -62,21 +64,22 @@ Days of the week is a user more likely to rent a bike:
 
 ----
 
-Which bikes need repair?
+Individual bike usage (as measured by total hours in service and total number of trips)
+
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/bikeID_subscriber.png" height="400" width="400"><img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/bikeID_customer.png" height="400" width="400">
 
 ### Summary
-<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">
-<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20"> 
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  The client base is primarily male subscribers most likely making commuter trips during the week (8a and 5pm) with a typical commute time of 5-6 mins.  The non-subscriber customer base is most active in a more spreadout pattern across midday.
+<img src="https://github.com/lnshewmo/Bikesharing/blob/main/images/icon.png" height="20" width="20">  Individual bikes requiring maintenance can be identified either by their total hours in service or number of trips made.  
 
 
 
 
 
-<img src="" height="300" width="300">
+
 
  
- (total # bikes needed, when can maintenance be performed)
+ 
 - what are the highest-traffic starting locations?
 - what are the highest-traffic ending locations?
-- how long is an average trip? (duration by age, gender, etc)
--  (sum of number of rides and sum of trip durations)
+
